@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Children's Toy Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #ff6347;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        nav {
+            background-color: #ff9800;
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            width: 90%;
+            margin: 0 auto;
+            padding: 20px 0;
+        }
+        .product {
+            display: inline-block;
+            width: 30%;
+            margin: 1.5%;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .product img {
+            width: 80%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .product h3 {
+            font-size: 22px;
+            color: #ff6347;
+        }
+        .product p {
+            color: #555;
+            font-size: 16px;
+            margin: 10px 0;
+        }
+        .product .price {
+            font-size: 20px;
+            font-weight: bold;
+            color: #ff6347;
+        }
+        footer {
+            background-color: #ff6347;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to Fun Kids Toy Store!</h1>
+        <p>Find the best toys for your kids here!</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#shop">Shop</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+        <h2>Featured Products</h2>
+        
+        <div class="product">
+            <img src="https://via.placeholder.com/200" alt="Toy 1">
+            <h3>Plush Teddy Bear</h3>
+            <p>The softest and cuddliest teddy bear your kids will love!</p>
+            <p class="price">$19.99</p>
+        </div>
+
+        <div class="product">
+            <img src="https://via.placeholder.com/200" alt="Toy 2">
+            <h3>Building Blocks Set</h3>
+            <p>Let your child's imagination run wild with this colorful block set!</p>
+            <p class="price">$29.99</p>
+        </div>
+
+        <div class="product">
+            <img src="https://via.placeholder.com/200" alt="Toy 3">
+            <h3>Remote-Controlled Car</h3>
+            <p>A fun, fast remote-controlled car that kids can race around!</p>
+            <p class="price">$39.99</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Fun Kids Toy Store | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
